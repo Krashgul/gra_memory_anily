@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(163, 36, 36);
+}
+
+div {
+    flex-basis: 15%;
+    flex-grow: 1;
+    height: 33.33vh;
+
+    background-color: #000;
+}
+
+@media (orientation: portrait) {
+    div {
+        height: 16.66vh;
+        flex-basis: 30%;
+    }
+}
+
+.red {
+    background-image: url(art/01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blue {
+    background-image: url(art/02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yellow {
+    background-image: url(art/03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.green {
+    background-image: url(art/04.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.brown {
+    background-image: url(art/05.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gray {
+    background-image: url(art/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lightgreen {
+    background-image: url(art/07.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cadetblue {
+    background-image: url(art/08.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.violet {
+    background-image: url(art/09.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hidden {
+    background-image: url(art/10.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.off {
+    background-image: url(art/00.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+
+}
